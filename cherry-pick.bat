@@ -1,5 +1,5 @@
 @echo off
-SET NAME=SingleCore-TC cherry-pick tool
+SET NAME=Project Solace cherry-pick tool
 TITLE %NAME%
 COLOR 0B
 set mod=%1

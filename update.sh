@@ -3,7 +3,7 @@
 clear
 echo
 echo "######################################"
-echo "# Welcome to the SingleCore compiler #"
+echo "# Welcome to Project Solace compiler #"
 echo "######################################"
 echo
 read -n1 -r -p "Press any key to continue..." key

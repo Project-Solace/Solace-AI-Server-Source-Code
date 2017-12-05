@@ -3,7 +3,7 @@
 clear
 echo
 echo "######################################"
-echo "# Welcome to the SingleCore compiler #"
+echo "# Welcome to Project Solace compiler #"
 echo "######################################"
 echo
 read -n1 -r -p "Press any key to continue..." key
@@ -23,7 +23,7 @@ echo Running cmake
 echo
 mkdir build
 cd build
-cmake .. -DCONF_DIR=/home/conan/Settings -DTOOLS=0 -DWITH_WARNINGS=0
+cmake .. -DCONF_DIR=/Solace AI Server Project/Solace AI Server Source Code/Settings -DTOOLS=0 -DWITH_WARNINGS=0
 echo
 echo Start the servers build
 echo

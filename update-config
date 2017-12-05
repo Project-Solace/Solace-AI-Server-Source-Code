@@ -4,10 +4,10 @@ echo
 echo Updating old server config files
 echo
 
-rm /home/conan/Settings/worldserver.conf
-rm /home/conan/Settings/authserver.conf
-rm /home/conan/Settings/bots.conf
+rm /Solace AI Server Project/Solace AI Server Source Code/Settings/worldserver.conf
+rm /Solace AI Server Project/Solace AI Server Source Code/settings/authserver.conf
+rm /Solace AI Server Project/Solace AI Server Source Code/Settings/bots.conf
 
-cp /home/conan/Source/SingleCore_TC/src/server/worldserver/worldserver.conf.dist /home/conan/Settings/worldserver.conf
-cp /home/conan/Source/SingleCore_TC/src/server/authserver/authserver.conf.dist /home/conan/Settings/authserver.conf
-cp /home/conan/Source/SingleCore_TC/src/plugins/playerbot/aiplayerbot.conf.dist.in /home/conan/Settings/bots.conf
+cp /Solace AI Server Project/Solace AI Server Source Code/src/server/worldserver/worldserver.conf.dist /Solace AI Server Project/Solace AI Server Source Code/worldserver.conf
+cp /Solace AI Server Project/Solace AI Server Source Code/src/server/authserver/authserver.conf.dist /Solace AI Server Project/Solace AI Server Source Code
+cp /Solace AI Server Project/Solace AI Server Source Code/src/plugins/playerbot/aiplayerbot.conf.dist.in /Solace AI Server Project/Solace AI Server Source Code
